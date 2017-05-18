@@ -1,0 +1,28 @@
+{
+  "name": "librua",
+  "version": "0.0.0",
+  "description": "test nodejs/express project",
+  "main": "librua.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node librua.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onimi/librua.git"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "express"
+  ],
+  "author": "onimi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Onimi/librua/issues"
+  },
+  "homepage": "https://github.com/Onimi/librua#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

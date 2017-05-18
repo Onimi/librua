@@ -18,7 +18,7 @@ app.get('/', function (req, res) {
 app.use(function (req, res) {
   // primitive funtionality
   res.type('text/plain');
-  res.send('404 — Не найдено');
+  res.send('404 - Not found');
   /*res.status(404);
   res.render('404');*/
 });
@@ -27,7 +27,7 @@ app.use(function (req, res) {
 app.use(function (err, req, res, next) {
   console.error(err.stack);
   res.status(500);
-  res.render('500');
+  res.render('500 - Server Error');
 });
 // ----------------------------------------------------------------------------->
 
